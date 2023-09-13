@@ -1,0 +1,9 @@
+def fibonacci(limit):
+  first=0
+  second=1
+  while first<=limit:
+    print(first,end=' ')
+    temp=first
+    first=second
+    second=temp+second
+fibonacci(10)
