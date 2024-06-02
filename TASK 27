@@ -1,0 +1,7 @@
+n=(input())
+count=len(n)
+sum=0
+for i in n:
+  sum+=2**(count-1)*int(i)
+  count-=1
+print(sum)
